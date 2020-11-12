@@ -1,9 +1,0 @@
-zn5CtQIsW_JV8_EvZskYb09SW_mVChw1oRtTXSLMYpQ
-
-http://192.168.0.145:881/kubk1.3/admin/organizationregistration/disbursementTracking/oywuvkqgc8ZvtnEUnA8sGNIEuCD9GqYwStFoxhZzL8I
-
- else
-   {
-     $SubProject=$this->Encryption->encode($SubProject)
-     redirect($this->url.'func2/'.$SubProject);
-   }
