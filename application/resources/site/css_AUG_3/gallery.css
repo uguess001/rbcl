@@ -1,0 +1,243 @@
+
+/*LIGHTCASE LIGHTBOX*/
+#lightcase-overlay{
+	background: #000;
+}
+@media screen and (min-width: 641px){
+	#lightcase-case[data-lc-type=image] #lightcase-content, 
+	#lightcase-case[data-lc-type=video] #lightcase-content{
+		background-color: transparent;
+	}
+}
+
+
+/*YOUTUBE BG*/
+.youtube-bg{
+	background-color: #000;
+	width: 100vw;
+	height: 100vh;
+}
+
+
+/*backgrounds*/
+[data-background]{
+	-webkit-background-size: cover;
+			background-size: cover;
+	background-position: center center;
+}
+
+/* parallax images
+---------------------------*/
+[data-stellar-background-ratio] {
+	-webkit-background-size: cover;
+			background-size: cover;
+	background-position: center 0;
+	background-attachment: fixed !important;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.bg-cover{
+	-webkit-background-size: cover;
+			background-size: cover;
+	background-position: center;
+}
+.bg-fixed{
+	background-attachment: fixed !important;
+}
+@media (max-width: 1024px) {
+	[data-stellar-background-ratio] {
+		background-attachment: scroll;
+		background-position-y: center !important;
+	}
+	.bg-fixed{
+		background-attachment: scroll;
+	}
+}
+
+
+
+/* 05. PORTFOLIO / GALLERY
+---------------------------------/
+
+/*PORTFOLIO*/
+.portfolio .grid-item a{
+	color: #000 !important;
+	position: absolute;
+	overflow: hidden;
+	left: 0; right: 0; bottom: 0; top: 0;
+}
+.portfolio .grid-item a .img{
+	position: absolute;
+	left: 0; right: 0; bottom: 0; top: 0;
+	-webkit-transform: scale(1.09);
+		-ms-transform: scale(1.09);
+			transform: scale(1.09);
+	-webkit-transition: all .3s ease;
+			transition: all .3s ease;
+}
+.portfolio .grid-item a:hover .img{
+	-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+			transform: scale(1);
+}
+.portfolio .grid-item .hover{
+	position: absolute;
+	left: 0; right: 0; bottom: 0; top: 0;
+	background-color: rgba(255, 255, 255, .78);
+	opacity: 0;
+	-webkit-transition: all .3s ease;
+			transition: all .3s ease;
+}
+.portfolio .grid-item a:hover .hover{
+	opacity: 1;
+}
+.portfolio .grid-item a .hover .centered{
+	width: 100%;
+	padding: 0 20px;
+}
+.portfolio .grid-item a .hover h5{
+	text-transform: uppercase;
+	font-family: 'Oswald';
+	letter-spacing: .05em;
+}
+.portfolio .grid-item a .hover p{
+	font-size: 13px;
+}
+
+
+/*JUSTIFIED GALLERY*/
+.justified{
+	/*Space between items*/
+	padding: 10px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	padding-bottom: 0;
+	overflow: hidden;
+}
+.justified a{opacity: 0;}
+.justified a img{
+	-webkit-transition: opacity .3s ease;
+			transition: opacity .3s ease;
+}
+.justified a:hover img{
+	opacity: .7;
+}
+
+
+/*GALLERY GRID*/
+.gallery .grid-item [data-background]{
+	position: absolute;
+	left: 0; right: 0; bottom: 0; top: 0;
+	overflow: hidden;
+	-webkit-transition: all .3s ease;
+			transition: all .3s ease;
+}
+.gallery .grid-item:hover [data-background]{
+	opacity: .7;
+}
+
+/*ALBUMS*/
+.albums .grid-item [data-background]{
+	position: absolute;
+	left: 0; right: 0; bottom: 0; top: 0;
+	overflow: hidden;
+}
+.albums .grid-item .expand{
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	background-color: #000;
+	color: white;
+	font-size: 14px;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	opacity: 0;
+	-webkit-transform: scale(.7);
+		-ms-transform: scale(.7);
+			transform: scale(.7);
+	-webkit-transition: all .3s ease;
+			transition: all .3s ease;
+	z-index: 1;
+}
+.albums.video-portfolio .grid-item .expand{
+	background-color: #fff;
+	color: #000;
+	z-index: 1;
+	top: 50%;
+	right: 50%;
+	margin-top: -30px;
+	margin-right: -30px;
+	width: 60px;
+	height: 60px;
+	line-height: 62px;
+	text-indent: 1px;
+	font-size: 16px;
+	box-shadow: 0 1px 10px -3px #000;
+}
+.albums .grid-item:hover .expand{
+	opacity: 1;
+	-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+			transform: scale(1);
+}
+.albums .grid-item .expand:hover{
+	-webkit-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+			transform: scale(1.1);
+}
+.albums .grid-item .title{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	-webkit-transition: all .3s ease;
+			transition: all .3s ease;
+}
+.albums .grid-item .title:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, transparent 100%);
+	-webkit-transition: all .3s ease;
+			transition: all .3s ease;
+}
+.albums .grid-item:hover .title:before{
+
+	opacity: .5;
+}
+.albums .grid-item .title a{
+	position: absolute;
+	bottom: 24px;
+	left: 24px;
+	right: 24px;
+	color: white;
+	font-family: 'Oswald';
+	font-size: 17px;
+	text-decoration: none;
+}
+.albums .grid-item .title a.link:after{
+	content: '\f0c1';
+	font-family: 'FontAwesome';
+	display: inline-block;
+	margin-left: 10px;
+	opacity: 0;
+	-webkit-transition: opacity .3s ease;
+			transition: opacity .3s ease;
+}
+.albums .grid-item:hover .title a.link:after{
+	opacity: 1;
+}
+
+@media (max-width: 768px) {
+	.grid-item {
+		width: 100% !important;
+	}
+}

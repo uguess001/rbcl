@@ -1,0 +1,24 @@
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  mime_content_type(): Empty filename or path in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/upload.php on line 103
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  fopen(): Filename cannot be empty in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1071
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1072
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1073
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  mime_content_type(): Empty filename or path in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/upload.php on line 103
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  fopen(): Filename cannot be empty in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1071
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1072
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1073
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  mime_content_type(): Empty filename or path in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/upload.php on line 103
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  fopen(): Filename cannot be empty in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1071
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1072
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1073
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  mime_content_type(): Empty filename or path in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/upload.php on line 103
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  fopen(): Filename cannot be empty in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1071
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1072
+[18-Aug-2020 07:10:44 Europe/Rome] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1073
+[18-Aug-2020 07:15:44 Europe/Rome] PHP Warning:  mime_content_type(): Empty filename or path in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/upload.php on line 103
+[18-Aug-2020 07:15:44 Europe/Rome] PHP Warning:  fopen(): Filename cannot be empty in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1071
+[18-Aug-2020 07:15:44 Europe/Rome] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1072
+[18-Aug-2020 07:15:44 Europe/Rome] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1073
+[18-Aug-2020 07:15:44 Europe/Rome] PHP Warning:  mime_content_type(): Empty filename or path in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/upload.php on line 103
+[18-Aug-2020 07:15:44 Europe/Rome] PHP Warning:  fopen(): Filename cannot be empty in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1071
+[18-Aug-2020 07:15:44 Europe/Rome] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1072
+[18-Aug-2020 07:15:44 Europe/Rome] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/rbcll/public_html/test/application/resources/admin/assets/filemanager/UploadHandler.php on line 1073

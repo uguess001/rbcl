@@ -1,0 +1,128 @@
+[18-Aug-2020 17:04:53 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:04:56 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:04:59 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:06:32 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:06:35 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:07:17 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:07:21 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:09:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function start_session() in /home/rbcll/public_html/test/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/rbcll/public_html/test/index.php on line 2
+[18-Aug-2020 17:09:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function start_session() in /home/rbcll/public_html/test/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/rbcll/public_html/test/index.php on line 2
+[18-Aug-2020 17:10:26 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/rbcll/public_html/test/index.php on line 3
+[18-Aug-2020 17:10:26 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:10:29 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/rbcll/public_html/test/index.php on line 3
+[18-Aug-2020 17:10:29 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:10:48 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/rbcll/public_html/test/index.php on line 3
+[18-Aug-2020 17:10:48 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:10:56 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/rbcll/public_html/test/index.php on line 3
+[18-Aug-2020 17:10:56 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:13:40 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/rbcll/public_html/test/index.php on line 3
+[18-Aug-2020 17:13:40 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:13:43 UTC] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home/rbcll/public_html/test/index.php on line 3
+[18-Aug-2020 17:13:43 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:15:04 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:15:07 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:15:11 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:15:31 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:15:35 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190
+[18-Aug-2020 17:16:52 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to CI_Exceptions::show_exception() must be an instance of Exception, instance of ParseError given, called in /home/rbcll/public_html/test/system/core/Common.php on line 658 and defined in /home/rbcll/public_html/test/system/core/Exceptions.php:190
+Stack trace:
+#0 /home/rbcll/public_html/test/system/core/Common.php(658): CI_Exceptions->show_exception(Object(ParseError))
+#1 [internal function]: _exception_handler(Object(ParseError))
+#2 {main}
+  thrown in /home/rbcll/public_html/test/system/core/Exceptions.php on line 190

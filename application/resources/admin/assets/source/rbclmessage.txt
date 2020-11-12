@@ -1,0 +1,1 @@
+$message = "Dear ".$data['name'].','. "<br/> <br/> <br/>".'Thank you for asking the quotation of <b>' .$file->title.' </b>. <br/> Please click on file below to download the quotation file'." <br/>"."<a href='$downloadfile'>".$file->file.'</a><br/>'.'<br/> <br/> Yours Sincerely'.'<br/>'.'Rastriya Beema Company Limited'.'<br/>'.'Phone:'.$contactus->phone;	
