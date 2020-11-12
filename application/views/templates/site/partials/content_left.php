@@ -10,7 +10,7 @@
                         <?php echo $about_us->title;?>
                     </div>
                     <div class="section-content-section text-justify">
-test git push
+test git push 
                         <?=isset($about_us)?(word_limiter($about_us->description,60,'...')):''?>
                     </div>
                     <div class="section-footer-section">
