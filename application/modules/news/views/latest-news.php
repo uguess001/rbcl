@@ -71,7 +71,7 @@
                                 </div>
                                 <?php }else{  ?>
                                 <div class="img-area">
-                                    <img src="<?=base_url()?>application/resources/site/aviation.jpg">
+                                    <img src="">
                                 </div>
                                 <?php } ?>
                                 <div class="art-content">

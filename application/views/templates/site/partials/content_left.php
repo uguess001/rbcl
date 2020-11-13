@@ -21,10 +21,13 @@
 
                     </div>
                 </div>
-                <div class="col-lg-1">
-                    test for premium calculator
+                <div class="col-lg-2">
+                <div class="section-header  mb-30 section-base-color">
+                                Features
+                            </div>
+                            <a href="#">Peminum calculator</a>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-6">
                     <div class="mb-30">
                 <div class="section-header  mb-30 section-secon-color">
                                 <?php echo $this->lang->line('summary'); ?>
