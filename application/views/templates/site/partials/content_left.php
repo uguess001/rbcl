@@ -10,7 +10,6 @@
                         <?php echo $about_us->title;?>
                     </div>
                     <div class="section-content-section text-justify">
-test git push test
                         <?=isset($about_us)?(word_limiter($about_us->description,60,'...')):''?>
                     </div>
                     <div class="section-footer-section">
@@ -22,7 +21,10 @@ test git push test
 
                     </div>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-1">
+                    test for premium calculator
+                </div>
+                <div class="col-lg-7">
                     <div class="mb-30">
                 <div class="section-header  mb-30 section-secon-color">
                                 <?php echo $this->lang->line('summary'); ?>

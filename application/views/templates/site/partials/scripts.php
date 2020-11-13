@@ -284,7 +284,7 @@ showResetButton: true
           }
         },
         dataLabels: {
-          enabled: true
+          enabled: false
         },
         xaxis: {
           categories: jsArrayName,
